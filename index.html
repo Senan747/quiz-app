@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz APP</title>
+</head>
+<body>
+
+    <!-- first page -->
+    <div class="start-btn">
+        <button>Start Quiz</button>
+    </div>
+
+    <div class="info-box">
+        <div class="info-title">
+            <span>Some rules of this Quiz</span>
+            <hr>
+        </div>
+        <div class="info-list"> 
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, you have to select answer</div>
+            <div class="info">3. You have to select one option just in time</div>
+            <div class="info">4. You can't exit from the quiz as long as you're playing</div>
+            <div class="info">5. You'll get points on the basis of your correct answers</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Quit quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="que-box">
+        <section id="header">
+            <div class="first-text">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="time-text">Time left</div>
+                <div class="time-second">15 </div>
+            </div>
+        </section>
+        <hr>
+        <section id="main">
+            <div class="que-text">
+                <!-- <span>What is the purpose of the "static" keyword in Java?</span> -->
+            </div>
+            <div class="option-list">
+                <!-- <div class="option">
+                    <span>to define a class variable</span>
+                    <div class="icon true">TRUE</div>
+                </div>
+                <div class="option">
+                    <span>to define a local variable</span>
+                    <div class="icon false">FALSE</div>
+                </div>
+                <div class="option">
+                    <span>to define an instance variable</span>
+                </div>
+                <div class="option">
+                    <span>to define a method</span>
+                </div> -->
+            </div>
+        </section>
+        <section id="footer">
+            <div class="total-que">
+                <!-- <span><p>2</p>of<p>6</p>Questions</span> -->
+            </div>
+            <button class="next-btn">Next</button>
+        </section>
+    </div>
+
+    <!-- result box -->
+    <div class="box">
+        <div class="result">
+            <div class="icon">tac
+                <i class="fa fa-crown"></i>
+            </div>
+            <div class="complete-text">
+                You've completed the Quiz!
+            </div>
+            <div class="score-text">
+                <span>and sorry, You got only <p> 2</p> out of <p>6</p></span>
+            </div>
+            <div class="buttons">
+                <button class="restart">
+                    Replay Quiz
+                </button>
+            <button class="quit">
+                    Quit Quiz
+                </button> 
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/question.js"></script>
+    
+</body>
+</html>
